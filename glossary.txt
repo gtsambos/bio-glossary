@@ -1,0 +1,2 @@
+paracentric	does not include the centromere
+pericentric	includes the centromere
