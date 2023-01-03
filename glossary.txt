@@ -1,2 +1,3 @@
+oligonucleotide	a small dna or rna molecule with length denotes n-mer, easy to synthesise
 paracentric	does not include the centromere
 pericentric	includes the centromere

@@ -38,7 +38,7 @@ print("definition:", definition)
 gls = pd.read_csv(
     "glossary.txt",
     names = ["word", "definition"],
-    sep = "\t"
+    sep = "\t",
     )
 
 # Iterate through words to find position.
@@ -54,8 +54,8 @@ for i, w in enumerate(old_words):
 
 # Add new row.
 if i == 0:
-    old_words = ['word'] + old_words
-    old_definitions = ['definition'] + old_definitions
+    old_words = [f'{word}'] + old_words
+    old_definitions = [f'{definition}'] + old_definitions
 elif i == num_words:
     old_words.append(word)
     old_definitions.append(definition)
